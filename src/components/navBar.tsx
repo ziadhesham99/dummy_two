@@ -25,7 +25,9 @@ export default function NavBar() {
             </div>
 
 
-            <div className="ml-auto flex gap-4 lg:gap-6 text-secondary">
+            <div
+                onClick={()=>window.scrollTo({ top: 0, behavior: "smooth" })}
+                className="ml-auto flex gap-4 lg:gap-6 text-secondary">
                 <Link className="hover:text-hover transition" to="/">Home</Link>
                 <Link className="hover:text-hover transition" to="/about">About</Link>
                 <Link className="hover:text-hover transition" to="/menu">Menu</Link>

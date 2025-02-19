@@ -129,7 +129,7 @@ export default function Home() {
                         </motion.div>
                     ))}
                 </div>
-                <Link to="/menu" className="mt-6 inline-block px-6 py-3 bg-accent text-white text-lg rounded-lg shadow-lg hover:bg-hover transition">
+                <Link to="/menu" className="  mt-6 inline-block px-6 py-3 bg-accent text-white text-lg rounded-lg shadow-lg hover:bg-hover transition">
                     See Full Menu
                 </Link>
             </div>
