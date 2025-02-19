@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 export default function Contact() {
     return (
         <div className="font-serif bg-bg text-muted">
-            {/* Parallax Background */}
             <div className="relative h-[400px] flex items-center justify-center bg-cover bg-center"
                  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1517487881594-2787fef5ebf7')" }}>
                 <motion.h1
