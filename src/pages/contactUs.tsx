@@ -10,7 +10,7 @@ export default function Contact() {
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
-                    className="text-6xl text-white font-bold bg-black/40 px-6 py-2 rounded-md">
+                    className="text-6xl text-secondary font-bold bg-black/40 px-6 py-2 rounded-md">
                     Contact Us
                 </motion.h1>
             </div>
@@ -41,8 +41,6 @@ export default function Contact() {
                     </button>
                 </form>
             </div>
-
-            {/* Contact Details */}
             <div className="max-w-4xl mx-auto py-12 px-6">
                 <h2 className="text-4xl font-bold text-primary mb-6">📍 Visit Us</h2>
                 <p className="text-lg mb-4">We’d love to welcome you to our café. Here’s how you can find us:</p>
